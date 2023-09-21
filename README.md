@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Pokédex FATEC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introdução
 
-## Available Scripts
+Bem-vindo à documentação oficial da Pokédex FATEC! Este é um aplicativo simples que permite aos usuários buscar informações sobre Pokémon usando a PokéAPI. O objetivo desta documentação é orientar você, usuário, sobre como usar e entender o funcionamento do aplicativo.
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+- [Começando](#começando)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Instalação](#instalação)
+- [Como Usar](#como-usar)
+  - [Pesquisar um Pokémon](#pesquisar-um-pokémon)
+  - [Exibir Detalhes do Pokémon](#exibir-detalhes-do-pokémon)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Começando
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pré-requisitos
 
-### `npm test`
+Antes de começar, certifique-se de ter o seguinte software instalado em sua máquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Você pode baixar e instalar o Node.js a partir do site oficial [nodejs.org](https://nodejs.org/).
 
-### `npm run build`
+### Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Siga estas etapas para configurar o aplicativo em sua máquina:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório para sua máquina local:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/denysfmalta/pokedex.git
+```
+Navegue até o diretório do projeto:
+```bash
+cd pokedex
+``````
+Instale as dependências do projeto:
+```bash
+npm install
+```
 
-### `npm run eject`
+Inicie o aplicativo:
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Agora, o aplicativo deve estar em execução localmente e acessível em seu navegador em http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Como Usar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Pesquisar um Pokémon
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ao abrir o aplicativo, você verá uma caixa de pesquisa onde pode digitar o nome de um Pokémon que deseja pesquisar. Digite o nome do Pokémon desejado e pressione o botão "Pesquisar". O aplicativo consultará a PokéAPI e exibirá os detalhes do Pokémon.
 
-## Learn More
+#### Detalhes do Pokémon
+Após pesquisar um Pokémon, os detalhes do Pokémon serão exibidos na parte inferior da página. Isso inclui uma imagem do Pokémon, o nome, o número de identificação (ID), o peso e a altura.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Contribuindo
+Se você deseja contribuir para o desenvolvimento deste projeto, siga estas etapas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Faça um fork do repositório em GitHub.
 
-### Code Splitting
+Clone seu fork para sua máquina local:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/seu-usuario/pokedex-fatec.git
+```
 
-### Analyzing the Bundle Size
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git checkout -b minha-feature
+```
+Faça suas alterações e commit:
+```bash
+git commit -m "Adicionei uma nova feature"
+``````
+Envie suas alterações para o GitHub:
+```bash
+git push origin minha-feature
+```
+Abra um pull request para a branch principal do projeto.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que goste do projeto.  :)
